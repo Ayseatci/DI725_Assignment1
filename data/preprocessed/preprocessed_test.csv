@@ -1,4 +1,4 @@
-issue_area,issue_category,issue_sub_category,issue_category_sub_category,customer_sentiment,product_category,product_sub_category,issue_complexity,agent_experience_level,agent_experience_level_desc,conversation,excl_count_raw,text,conv_len_raw,conv_len,excl_count,label
+issue_area,issue_category,issue_sub_category,issue_category_sub_category,customer_sentiment,product_category,product_sub_category,issue_complexity,agent_experience_level,agent_experience_level_desc,conversation,text,label
 Shopping,Pricing and Discounts,Discounts through exchange offers,Pricing and Discounts -> Discounts through exchange offers,negative,Appliances,Hand Blender,less,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 
 Customer: Hi, Sarah. I am calling because I am interested in buying a hand blender, but the price seems too high. I heard that you offer discounts through exchange offers. Can you help me with that?
@@ -31,7 +31,7 @@ Agent: You're welcome. Thank you for choosing BrownBox, and have a great day!
 
 Customer: Thank you. You too. Goodbye!
 
-Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
+Agent: Goodbye!","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 <cust> Hi, Sarah. I am calling because I am interested in buying a hand blender, but the price seems too high. I heard that you offer discounts through exchange offers. Can you help me with that?
 <agent> Of course, I can help you with that. May I know which hand blender you are interested in, and do you have an old blender that you would like to exchange?
 <cust> Yes, I am interested in the XYZ hand blender, and I do have an old blender that I would like to exchange.
@@ -47,7 +47,7 @@ Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My 
 <cust> No, that's all for now. Thank you.
 <agent> You're welcome. Thank you for choosing BrownBox, and have a great day!
 <cust> Thank you. You too. Goodbye!
-<agent> Goodbye!",365,-0.08718509426656035,0.5043668951391247,0
+<agent> Goodbye!",0
 Login and Account,Account Reactivation and Deactivation,Reactivating an inactive account,Account Reactivation and Deactivation -> Reactivating an inactive account,negative,Men/Women/Kids,Wrist Watch,medium,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
 
 Customer: Hi Sarah, my name is John. I'm having trouble reactivating my account for a wristwatch that I purchased from your website. Can you help me with that?
@@ -90,7 +90,7 @@ Reactivation Team: You're welcome, John. If you have any further questions, feel
 
 Customer: Thank you, you too. Goodbye.
 
-Reactivation Team: Goodbye, John.",0,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
+Reactivation Team: Goodbye, John.","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
 <cust> Hi Sarah, my name is John. I'm having trouble reactivating my account for a wristwatch that I purchased from your website. Can you help me with that?
 <agent> I'm sorry to hear that, John. Can you please provide me with your email address and order number?
 <cust> Sure, my email address is john.doe@gmail.com, and the order number is 123456.
@@ -111,7 +111,7 @@ Reactivation Team: Thank you, John. I've reactivated your account, and you shoul
 <cust> No, that's all for now. Thank you for your help, Lisa.
 Reactivation Team: You're welcome, John. If you have any further questions, feel free to reach out to us. Have a great day!
 <cust> Thank you, you too. Goodbye.
-Reactivation Team: Goodbye, John.",397,0.14530849044426725,-1.0087337902782492,0
+Reactivation Team: Goodbye, John.",0
 Cancellations and returns,Cash on Delivery (CoD) Refunds,Refund timelines for Cash on Delivery  returns,Cash on Delivery (CoD) Refunds -> Refund timelines for Cash on Delivery  returns,negative,Appliances,Induction Cooktop,less,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Jane. How may I assist you today?
 
 Customer: Hi Jane, I am calling regarding the refund for my Induction Cooktop. I returned it a week ago, but I haven't received my refund yet. Can you please help me with that?
@@ -140,7 +140,7 @@ Agent: You're welcome. I apologize again for the delay in the refund process. If
 
 Customer: Thank you. Goodbye.
 
-Agent: Goodbye.",0,"<agent> Thank you for calling BrownBox Customer Support. My name is Jane. How may I assist you today?
+Agent: Goodbye.","<agent> Thank you for calling BrownBox Customer Support. My name is Jane. How may I assist you today?
 <cust> Hi Jane, I am calling regarding the refund for my Induction Cooktop. I returned it a week ago, but I haven't received my refund yet. Can you please help me with that?
 <agent> I'm sorry to hear that you haven't received your refund yet. May I know your order number and the mode of payment you used for the purchase?
 <cust> My order number is BB789012, and I paid for it using Cash on Delivery.
@@ -154,7 +154,7 @@ Agent: Goodbye.",0,"<agent> Thank you for calling BrownBox Customer Support. My 
 <cust> No, that's all for now. Thank you for your assistance.
 <agent> You're welcome. I apologize again for the delay in the refund process. If you have any further questions or concerns, please feel free to reach out to us. Thank you for choosing BrownBox, and have a good day.
 <cust> Thank you. Goodbye.
-<agent> Goodbye.",375,-0.014530849044426725,-1.0087337902782492,0
+<agent> Goodbye.",0
 Order,Order Delivery Issues,Package shows as delivered but cannot be found,Order Delivery Issues -> Package shows as delivered but cannot be found,negative,Men/Women/Kids,Sunglas,high,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 
 Customer: Hi Sarah, my name is John. I have a problem with my recent order. The package shows as delivered, but I can't find it anywhere.
@@ -207,7 +207,7 @@ Carrier Service Team: You're welcome, John. If you have any further questions, f
 
 Customer: Thank you. Goodbye.
 
-Carrier Service Team: Goodbye, John.",0,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
+Carrier Service Team: Goodbye, John.","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 <cust> Hi Sarah, my name is John. I have a problem with my recent order. The package shows as delivered, but I can't find it anywhere.
 <agent> I'm sorry to hear that, John. I understand how frustrating that can be. May I have your order number, please?
 <cust> Sure. It's 123456.
@@ -233,7 +233,7 @@ Carrier Service Team: Thank you, John. I have initiated the claim process, and o
 <cust> No, that's all for now. Thank you for your help.
 Carrier Service Team: You're welcome, John. If you have any further questions, feel free to reach out to us. Have a great day!
 <cust> Thank you. Goodbye.
-Carrier Service Team: Goodbye, John.",588,1.5330045741870195,-1.0087337902782492,0
+Carrier Service Team: Goodbye, John.",0
 Cancellations and returns,Pickup and Shipping,Reimbursement of courier charges for return,Pickup and Shipping -> Reimbursement of courier charges for return,negative,Electronics,Computer Monitor,medium,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 
 Customer: Hi Sarah, I have an issue with a computer monitor that I received from your website.
@@ -278,7 +278,7 @@ Agent: Alright. Thank you for choosing BrownBox, and I hope you have a great day
 
 Customer: Thanks, you too. Goodbye.
 
-Agent: Goodbye.",0,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
+Agent: Goodbye.","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 <cust> Hi Sarah, I have an issue with a computer monitor that I received from your website.
 <agent> I'm sorry to hear that. Can you please provide me with your order number?
 <cust> Yes, it's BB345678.
@@ -300,7 +300,7 @@ Agent: Goodbye.",0,"<agent> Thank you for calling BrownBox Customer Support. My 
 <cust> No, that's all for now.
 <agent> Alright. Thank you for choosing BrownBox, and I hope you have a great day.
 <cust> Thanks, you too. Goodbye.
-<agent> Goodbye.",420,0.3124132544551746,-1.0087337902782492,0
+<agent> Goodbye.",0
 Cancellations and returns,Return and Exchange,Eligibility Disputes,Return and Exchange -> Eligibility Disputes,negative,Men/Women/Kids,Backpack,high,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Agent: Thank you for calling BrownBox Customer Support. My name is Rachel. How may I assist you today?
 
 Customer: Hi Rachel, I purchased a backpack from your website, and I want to return it.
@@ -363,7 +363,7 @@ Supervisor: You're welcome, John. If you have any further questions or need assi
 
 Customer: Thank you, you too. Goodbye!
 
-Supervisor: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My name is Rachel. How may I assist you today?
+Supervisor: Goodbye!","<agent> Thank you for calling BrownBox Customer Support. My name is Rachel. How may I assist you today?
 <cust> Hi Rachel, I purchased a backpack from your website, and I want to return it.
 <agent> I'm sorry to hear that, may I know the reason for the return?
 <cust> The backpack is too small for my needs.
@@ -394,7 +394,7 @@ Supervisor: Perfect, I have initiated the exchange process, and you will receive
 <cust> No, that's all. Thank you for your help, Lisa.
 Supervisor: You're welcome, John. If you have any further questions or need assistance in the future, feel free to reach out to us. Have a great day!
 <cust> Thank you, you too. Goodbye!
-Supervisor: Goodbye!",489,0.8137275464878966,0.5043668951391247,0
+Supervisor: Goodbye!",0
 Cancellations and returns,Cash on Delivery (CoD) Refunds,Refund for Cash on Delivery payments and reimbursement of courier charges,Cash on Delivery (CoD) Refunds -> Refund for Cash on Delivery payments and reimbursement of courier charges,negative,Appliances,Air Cooler,less,inexperienced,"may struggle with ambiguous queries, rely on clarification from customers or guidance from senior team members, find it difficult to de-escalate tense situations, and may rely on predefined steps or escalate to supervisors for support","Agent: Thank you for calling BrownBox Customer Support. My name is John. How may I assist you today?
 
 Customer: Hi John, I am calling regarding my recent order of an Air Cooler. I received a defective product, and I want to return it and get a refund.
@@ -437,7 +437,7 @@ Agent: Alright. Thank you for choosing BrownBox, and have a great day!
 
 Customer: You too. Goodbye!
 
-Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My name is John. How may I assist you today?
+Agent: Goodbye!","<agent> Thank you for calling BrownBox Customer Support. My name is John. How may I assist you today?
 <cust> Hi John, I am calling regarding my recent order of an Air Cooler. I received a defective product, and I want to return it and get a refund.
 <agent> I'm sorry to hear that. May I know your order number, please?
 <cust> Sure, it's BB123456.
@@ -458,7 +458,7 @@ Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My 
 <cust> No, that's all for now.
 <agent> Alright. Thank you for choosing BrownBox, and have a great day!
 <cust> You too. Goodbye!
-<agent> Goodbye!",390,0.09445051878877371,0.5043668951391247,0
+<agent> Goodbye!",0
 Cancellations and returns,Cash on Delivery (CoD) Refunds,Refund for Cash on Delivery payments and reimbursement of courier charges,Cash on Delivery (CoD) Refunds -> Refund for Cash on Delivery payments and reimbursement of courier charges,negative,Appliances,Electric Cooker,less,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Alex. How may I assist you today?
 
 Customer: Hi, Alex. I need help with a refund for my Cash on Delivery payment.
@@ -515,7 +515,7 @@ Senior Agent: Alright. Thank you for choosing BrownBox, and have a great day!
 
 Customer: You too. Goodbye!
 
-Senior Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My name is Alex. How may I assist you today?
+Senior Agent: Goodbye!","<agent> Thank you for calling BrownBox Customer Support. My name is Alex. How may I assist you today?
 <cust> Hi, Alex. I need help with a refund for my Cash on Delivery payment.
 <agent> I'm sorry to hear that. Can you please provide me with your order details?
 <cust> Yes, my order number is BB12345.
@@ -543,7 +543,7 @@ Senior <agent> You're welcome! Is there anything else I can assist you with toda
 <cust> No, that's all for now.
 Senior <agent> Alright. Thank you for choosing BrownBox, and have a great day!
 <cust> You too. Goodbye!
-Senior <agent> Goodbye!",498,0.8791163671878168,0.5043668951391247,0
+Senior <agent> Goodbye!",0
 Shipping,Standard Shipping Speeds and Delivery Charges,Understanding the standard shipping speeds,Standard Shipping Speeds and Delivery Charges -> Understanding the standard shipping speeds,negative,Electronics,Laptop,medium,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Hello, thank you for contacting BrownBox customer support. How may I assist you today?
 
 Customer: Hi, I am extremely disappointed with the delivery of my laptop. I ordered it a week ago, and it hasn't arrived yet. What's going on?
@@ -576,7 +576,7 @@ Agent: I understand, Jane. If you have any further questions or concerns, please
 
 Customer: Thanks, you too. Goodbye.
 
-Agent: Goodbye, Jane.",0,"<agent> Hello, thank you for contacting BrownBox customer support. How may I assist you today?
+Agent: Goodbye, Jane.","<agent> Hello, thank you for contacting BrownBox customer support. How may I assist you today?
 <cust> Hi, I am extremely disappointed with the delivery of my laptop. I ordered it a week ago, and it hasn't arrived yet. What's going on?
 <agent> I'm sorry to hear that you're having trouble with your order. May I please have your order number and registered email address, so I can look into this for you?
 <cust> Sure, my order number is BB123456 and my email address is janedoe@email.com.
@@ -592,7 +592,7 @@ Agent: Goodbye, Jane.",0,"<agent> Hello, thank you for contacting BrownBox custo
 <cust> No, that's all. I just hope the laptop arrives soon.
 <agent> I understand, Jane. If you have any further questions or concerns, please don't hesitate to contact us. Have a good day.
 <cust> Thanks, you too. Goodbye.
-<agent> Goodbye, Jane.",443,0.4795180184660819,-1.0087337902782492,0
+<agent> Goodbye, Jane.",0
 Cancellations and returns,Return and Exchange,Instances when returning an item is not possible,Return and Exchange -> Instances when returning an item is not possible,negative,Appliances,Electric Kettle,high,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 
 Customer: Hi Sarah, my name is Karen. I recently purchased an electric kettle from your website, and I want to return it.
@@ -641,7 +641,7 @@ Agent: You're welcome, Karen. I'm sorry we couldn't resolve the issue, but I hop
 
 Customer: You too. Goodbye.
 
-Agent: Goodbye, Karen.",0,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
+Agent: Goodbye, Karen.","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 <cust> Hi Sarah, my name is Karen. I recently purchased an electric kettle from your website, and I want to return it.
 <agent> I'm sorry to hear that, Karen. May I know the reason for the return?
 <cust> The kettle doesn't work correctly. It doesn't heat the water properly, and the lid doesn't fit well.
@@ -665,7 +665,7 @@ Agent: Goodbye, Karen.",0,"<agent> Thank you for calling BrownBox Customer Suppo
 <cust> Alright, I'll do that. Thanks for your help.
 <agent> You're welcome, Karen. I'm sorry we couldn't resolve the issue, but I hope the manufacturer can help you. If you have any other questions or concerns, feel free to reach out to us. Have a good day.
 <cust> You too. Goodbye.
-<agent> Goodbye, Karen.",425,0.3487403770662414,-1.0087337902782492,0
+<agent> Goodbye, Karen.",0
 Shopping,Product Availability and Status,Ordering 'Out of Stock' or 'Temporarily Unavailable' products,Product Availability and Status -> Ordering 'Out of Stock' or 'Temporarily Unavailable' products,neutral,Appliances,Vacuum Cleaner,less,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Customer: Hello, I was looking to buy a vacuum cleaner from your website, but the one I want is currently out of stock. Can you tell me when it will be available again?
 
 Agent: Hello! Thank you for contacting BrownBox customer support. I'm sorry to hear that the vacuum cleaner you want is currently out of stock. May I please have the product name or SKU number, so I can check its availability for you?
@@ -692,7 +692,7 @@ Agent: You're welcome, and I apologize again for the inconvenience. Is there any
 
 Customer: No, that's all. Thank you for your time.
 
-Agent: You're welcome. If you have any further questions or concerns, don't hesitate to contact us. Have a great day!",0,"<cust> Hello, I was looking to buy a vacuum cleaner from your website, but the one I want is currently out of stock. Can you tell me when it will be available again?
+Agent: You're welcome. If you have any further questions or concerns, don't hesitate to contact us. Have a great day!","<cust> Hello, I was looking to buy a vacuum cleaner from your website, but the one I want is currently out of stock. Can you tell me when it will be available again?
 <agent> Hello! Thank you for contacting BrownBox customer support. I'm sorry to hear that the vacuum cleaner you want is currently out of stock. May I please have the product name or SKU number, so I can check its availability for you?
 <cust> Yes, it's the XYZ model, SKU number 123456.
 <agent> Thank you for the information. I'm checking with our inventory team to see when we expect to have this model back in stock. Please bear with me for a moment.
@@ -705,7 +705,7 @@ Agent: You're welcome. If you have any further questions or concerns, don't hesi
 <cust> Alright, thank you for your help. I guess I'll have to wait then.
 <agent> You're welcome, and I apologize again for the inconvenience. Is there anything else I can assist you with today?
 <cust> No, that's all. Thank you for your time.
-<agent> You're welcome. If you have any further questions or concerns, don't hesitate to contact us. Have a great day!",371,-0.043592547133280174,-1.0087337902782492,1
+<agent> You're welcome. If you have any further questions or concerns, don't hesitate to contact us. Have a great day!",1
 Login and Account,Account Reactivation and Deactivation,Deactivating the account,Account Reactivation and Deactivation -> Deactivating the account,neutral,Men/Women/Kids,Shorts,medium,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah, how may I assist you today?
 
 Customer: Hi Sarah, I want to deactivate my account for a Shorts.
@@ -750,7 +750,7 @@ Agent: Alright. I have processed the refund for the Shorts, and your account has
 
 Customer: Thank you. Goodbye.
 
-Agent: You're welcome. Goodbye.",0,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah, how may I assist you today?
+Agent: You're welcome. Goodbye.","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah, how may I assist you today?
 <cust> Hi Sarah, I want to deactivate my account for a Shorts.
 <agent> I'm sorry to hear that. Can you please provide me with your account email address or phone number so I can locate your account?
 <cust> Sure, my email address is johndoe@email.com.
@@ -772,7 +772,7 @@ Agent: You're welcome. Goodbye.",0,"<agent> Thank you for calling BrownBox Custo
 <cust> Yes, I'm sure.
 <agent> Alright. I have processed the refund for the Shorts, and your account has been deactivated. You will receive a confirmation email shortly. If you have any further questions or concerns, please don't hesitate to contact us. Thank you for choosing BrownBox, and have a good day!
 <cust> Thank you. Goodbye.
-<agent> You're welcome. Goodbye.",481,0.7556041503101897,-1.0087337902782492,1
+<agent> You're welcome. Goodbye.",1
 Shopping,Pricing and Discounts,Different prices for the same product,Pricing and Discounts -> Different prices for the same product,neutral,Men/Women/Kids,Wrist Watch,less,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Agent: Thank you for calling BrownBox Customer Support. My name is Emily. How may I assist you today?
 
 Customer: Hi, Emily. I was browsing through your website and noticed that the same wristwatch is listed at different prices. Can you explain why?
@@ -813,7 +813,7 @@ Agent: You're welcome. If you have any further questions or concerns, don't hesi
 
 Customer: Thank you. You too. Goodbye!
 
-Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My name is Emily. How may I assist you today?
+Agent: Goodbye!","<agent> Thank you for calling BrownBox Customer Support. My name is Emily. How may I assist you today?
 <cust> Hi, Emily. I was browsing through your website and noticed that the same wristwatch is listed at different prices. Can you explain why?
 <agent> Sure, I can definitely help you with that. The price of a product may vary depending on various factors such as the seller, availability, and shipping location. Can you please provide me with the product name and the prices you are referring to?
 <cust> Yes, the product name is ""Classic Wristwatch,"" and I found it listed at $50 and $60.
@@ -833,7 +833,7 @@ Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My 
 <cust> No, that's all for now. Thank you for your help.
 <agent> You're welcome. If you have any further questions or concerns, don't hesitate to reach out. Thank you for choosing BrownBox, and have a great day!
 <cust> Thank you. You too. Goodbye!
-<agent> Goodbye!",447,0.5085797165549354,0.5043668951391247,1
+<agent> Goodbye!",1
 Shipping,Shipping Options for Returns,"Availability of faster delivery options (e.g., Same Day & In-a-Day) for return requests","Shipping Options for Returns -> Availability of faster delivery options (e.g., Same Day & In-a-Day) for return requests",neutral,Electronics,Computer Monitor,less,inexperienced,"may struggle with ambiguous queries, rely on clarification from customers or guidance from senior team members, find it difficult to de-escalate tense situations, and may rely on predefined steps or escalate to supervisors for support","Agent: Thank you for contacting BrownBox customer support. My name is John. How can I assist you today?
 
 Customer: Hi John. I recently received a computer monitor from your website, but it's not what I was expecting. I want to return it and get a replacement.
@@ -920,7 +920,7 @@ Customer: Thank you, Emily. I appreciate your assistance.
 
 Specialist: You're welcome, Ms. Jones. Thank you for your patience and understanding. Goodbye!
 
-Customer: Goodbye!",1,"<agent> Thank you for contacting BrownBox customer support. My name is John. How can I assist you today?
+Customer: Goodbye!","<agent> Thank you for contacting BrownBox customer support. My name is John. How can I assist you today?
 <cust> Hi John. I recently received a computer monitor from your website, but it's not what I was expecting. I want to return it and get a replacement.
 <agent> I apologize for the inconvenience, ma'am. I'll do my best to help you with this issue. May I have your order number to pull up your information?
 <cust> Sure, my order number is BB789012.
@@ -963,7 +963,7 @@ Specialist: Thank you for waiting, Ms. Jones. I appreciate your patience. The ch
 Specialist: Sure, I'll note that down. Please check your email for the return label and the confirmation of the In-a-Day delivery option. If you have any other questions or concerns, feel free to reach out. Have a great day!
 <cust> Thank you, Emily. I appreciate your assistance.
 Specialist: You're welcome, Ms. Jones. Thank you for your patience and understanding. Goodbye!
-<cust> Goodbye!",915,3.908798392950789,0.5043668951391247,1
+<cust> Goodbye!",1
 Cancellations and returns,Return Checks and Fees,Checks performed for returned items,Return Checks and Fees -> Checks performed for returned items,neutral,Appliances,Vacuum Cleaner,less,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Customer: Hi, I have a question about return checks and fees for a vacuum cleaner I returned.
 
 Agent: Hello! Thank you for contacting BrownBox customer support. My name is Rachel, and I'll be happy to assist you. May I have your order number, please?
@@ -994,7 +994,7 @@ Agent: You're welcome! If you have any further questions or concerns, please don
 
 Customer: Thank you, you too. Goodbye!
 
-Agent: Goodbye!",1,"<cust> Hi, I have a question about return checks and fees for a vacuum cleaner I returned.
+Agent: Goodbye!","<cust> Hi, I have a question about return checks and fees for a vacuum cleaner I returned.
 <agent> Hello! Thank you for contacting BrownBox customer support. My name is Rachel, and I'll be happy to assist you. May I have your order number, please?
 <cust> Sure, it's BB123456789.
 <agent> Thank you for providing that information. How can I assist you with your order?
@@ -1009,7 +1009,7 @@ Agent: Goodbye!",1,"<cust> Hi, I have a question about return checks and fees fo
 <cust> No, that's all. Thank you for your help.
 <agent> You're welcome! If you have any further questions or concerns, please don't hesitate to contact us. Have a great day!
 <cust> Thank you, you too. Goodbye!
-<agent> Goodbye!",253,-0.9009126407544569,0.5043668951391247,1
+<agent> Goodbye!",1
 Warranty,Accessing Warranty Details,Finding warranty details when the details are not remembered,Accessing Warranty Details -> Finding warranty details when the details are not remembered,neutral,Appliances,Induction Cooktop,medium,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Hello, thank you for calling BrownBox Customer Support. My name is John, how may I assist you today?
 
 Customer: Hi John, I recently purchased an Induction Cooktop from your website and I need to access the warranty details.
@@ -1046,7 +1046,7 @@ Agent: It was my pleasure assisting you. If you have any further questions or co
 
 Customer: You too. Goodbye.
 
-Agent: Goodbye.",0,"<agent> Hello, thank you for calling BrownBox Customer Support. My name is John, how may I assist you today?
+Agent: Goodbye.","<agent> Hello, thank you for calling BrownBox Customer Support. My name is John, how may I assist you today?
 <cust> Hi John, I recently purchased an Induction Cooktop from your website and I need to access the warranty details.
 <agent> Sure, I'd be happy to help you with that. Can I have your order number and the date of purchase, please?
 <cust> Yes, the order number is 123456 and I purchased it on 1st June 2021.
@@ -1064,7 +1064,7 @@ Agent: Goodbye.",0,"<agent> Hello, thank you for calling BrownBox Customer Suppo
 <cust> No, that's all. Thank you again.
 <agent> It was my pleasure assisting you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day!
 <cust> You too. Goodbye.
-<agent> Goodbye.",375,-0.014530849044426725,-1.0087337902782492,1
+<agent> Goodbye.",1
 Cancellations and returns,Replacement and Return Process,Return process and how it works,Replacement and Return Process -> Return process and how it works,neutral,Men/Women/Kids,Diaper,high,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for reaching out to BrownBox customer support. How may I assist you today?
 
 Customer: Hi, I received a diaper that was damaged during shipping, and I would like to return it for a replacement. Can you help me with the return process?
@@ -1095,7 +1095,7 @@ Customer: No, that's all for now.
 
 Agent: Alright, thank you for contacting BrownBox customer support. If you have any further questions or concerns, please feel free to reach out to us. Have a great day!
 
-Customer: Thank you, you too. *hangs up*",0,"<agent> Thank you for reaching out to BrownBox customer support. How may I assist you today?
+Customer: Thank you, you too. *hangs up*","<agent> Thank you for reaching out to BrownBox customer support. How may I assist you today?
 <cust> Hi, I received a diaper that was damaged during shipping, and I would like to return it for a replacement. Can you help me with the return process?
 <agent> Sure, I'd be happy to assist you with that. May I have your order number and the item's SKU number, please?
 <cust> My order number is 987654321, and the SKU number is 123456.
@@ -1110,7 +1110,7 @@ Customer: Thank you, you too. *hangs up*",0,"<agent> Thank you for reaching out 
 <agent> You're welcome. Is there anything else I can assist you with?
 <cust> No, that's all for now.
 <agent> Alright, thank you for contacting BrownBox customer support. If you have any further questions or concerns, please feel free to reach out to us. Have a great day!
-<cust> Thank you, you too. *hangs up*",301,-0.5521722636882155,-1.0087337902782492,1
+<cust> Thank you, you too. *hangs up*",1
 Warranty,Lost or Missing Warranty Card,Mismatch in warranty terms between the website and the physical warranty card,Lost or Missing Warranty Card -> Mismatch in warranty terms between the website and the physical warranty card,neutral,Electronics,Headphone,less,inexperienced,"may struggle with ambiguous queries, rely on clarification from customers or guidance from senior team members, find it difficult to de-escalate tense situations, and may rely on predefined steps or escalate to supervisors for support","Agent: Hello, thank you for calling BrownBox customer support. My name is Sarah. How may I assist you today?
 
 Customer: Hi Sarah, I recently purchased a headphone from your website and I'm having trouble with the warranty card. Can you help me with that?
@@ -1145,7 +1145,7 @@ Agent: You're welcome! It was my pleasure assisting you. Have a great day!
 
 Customer: You too, bye.
 
-Agent: Goodbye!",0,"<agent> Hello, thank you for calling BrownBox customer support. My name is Sarah. How may I assist you today?
+Agent: Goodbye!","<agent> Hello, thank you for calling BrownBox customer support. My name is Sarah. How may I assist you today?
 <cust> Hi Sarah, I recently purchased a headphone from your website and I'm having trouble with the warranty card. Can you help me with that?
 <agent> Sure, I can definitely help with that. May I have your order number and the issue you're facing with the warranty card?
 <cust> Yes, my order number is BB123456 and I received a physical warranty card with the headphone, but the terms mentioned on the website are different from what's on the card.
@@ -1162,7 +1162,7 @@ Agent: Goodbye!",0,"<agent> Hello, thank you for calling BrownBox customer suppo
 <cust> No, that's all for now. Thank you for your help, Sarah.
 <agent> You're welcome! It was my pleasure assisting you. Have a great day!
 <cust> You too, bye.
-<agent> Goodbye!",375,-0.014530849044426725,-1.0087337902782492,1
+<agent> Goodbye!",1
 Cancellations and returns,Return and Exchange,Returning or exchanging an item,Return and Exchange -> Returning or exchanging an item,neutral,Electronics,Mobile,less,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Rachel. How may I assist you today?
 
 Customer: Hi, Rachel. I need help with returning a mobile phone that I purchased from your website.
@@ -1199,7 +1199,7 @@ Agent: Alright. Thank you for choosing BrownBox, and have a great day!
 
 Customer: You too. Goodbye!
 
-Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My name is Rachel. How may I assist you today?
+Agent: Goodbye!","<agent> Thank you for calling BrownBox Customer Support. My name is Rachel. How may I assist you today?
 <cust> Hi, Rachel. I need help with returning a mobile phone that I purchased from your website.
 <agent> Sure, I'll be happy to assist you with that. Can you please provide me with your order details?
 <cust> Yes, my order number is BB67890.
@@ -1217,7 +1217,7 @@ Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My 
 <cust> No, that's all for now.
 <agent> Alright. Thank you for choosing BrownBox, and have a great day!
 <cust> You too. Goodbye!
-<agent> Goodbye!",328,-0.35600580158845474,0.5043668951391247,1
+<agent> Goodbye!",1
 Order,Order Confirmation and Status,Checking order confirmation,Order Confirmation and Status -> Checking order confirmation,neutral,Men/Women/Kids,Diaper,medium,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Agent: Thank you for contacting BrownBox customer support. My name is Rachel. How may I assist you today?
 
 Customer: Hi Rachel. I just placed an order for a pack of diapers, and I wanted to confirm if it was successful.
@@ -1238,7 +1238,7 @@ Agent: You're welcome. If you have any further questions, please don't hesitate 
 
 Customer: You too. Goodbye!
 
-Agent: Goodbye!",1,"<agent> Thank you for contacting BrownBox customer support. My name is Rachel. How may I assist you today?
+Agent: Goodbye!","<agent> Thank you for contacting BrownBox customer support. My name is Rachel. How may I assist you today?
 <cust> Hi Rachel. I just placed an order for a pack of diapers, and I wanted to confirm if it was successful.
 <agent> Sure, I can help you with that. May I have your order number, please?
 <cust> Yes, it's 987654321.
@@ -1248,7 +1248,7 @@ Agent: Goodbye!",1,"<agent> Thank you for contacting BrownBox customer support. 
 <cust> No, that's all I needed to know. Thank you for your help, Rachel.
 <agent> You're welcome. If you have any further questions, please don't hesitate to contact us. Have a great day!
 <cust> You too. Goodbye!
-<agent> Goodbye!",231,-1.0607519802431509,0.5043668951391247,1
+<agent> Goodbye!",1
 Order,Order Confirmation and Status,Confirming order status,Order Confirmation and Status -> Confirming order status,positive,Electronics,Power Bank,less,inexperienced,"may struggle with ambiguous queries, rely on clarification from customers or guidance from senior team members, find it difficult to de-escalate tense situations, and may rely on predefined steps or escalate to supervisors for support","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
 
 Customer: Hi Sarah, I recently placed an order for a Power Bank, and I haven't received any confirmation yet. Can you please help me with that?
@@ -1273,7 +1273,7 @@ Agent: Thank you for waiting, sir. I have checked the shipping details for your 
 
 Customer: No, that's all for now. Thank you for your help, Sarah.
 
-Agent: You're welcome, sir. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day!",0,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
+Agent: You're welcome, sir. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day!","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
 <cust> Hi Sarah, I recently placed an order for a Power Bank, and I haven't received any confirmation yet. Can you please help me with that?
 <agent> Sure, I'd be happy to help. May I have your order number, please?
 <cust> Yes, it's BB987654321.
@@ -1285,7 +1285,7 @@ Agent: You're welcome, sir. If you have any further questions or concerns, pleas
 (Customer is put on hold for a few minutes)
 <agent> Thank you for waiting, sir. I have checked the shipping details for your order, and it looks like your Power Bank will be delivered in three business days. Is there anything else I can help you with?
 <cust> No, that's all for now. Thank you for your help, Sarah.
-<agent> You're welcome, sir. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day!",240,-0.9953631595432306,-1.0087337902782492,2
+<agent> You're welcome, sir. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day!",2
 Order,Order Confirmation and Status,Confirming order status,Order Confirmation and Status -> Confirming order status,positive,Appliances,Sandwich Maker,medium,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Emily. How may I assist you today?
 
 Customer: Hi Emily, I recently placed an order for a sandwich maker and I wanted to confirm the order status.
@@ -1324,7 +1324,7 @@ Tom: You're welcome. Thank you for choosing BrownBox, and have a great day!
 
 Customer: Thank you. Goodbye!
 
-Tom: Goodbye!",1,"<agent> Thank you for calling BrownBox Customer Support. My name is Emily. How may I assist you today?
+Tom: Goodbye!","<agent> Thank you for calling BrownBox Customer Support. My name is Emily. How may I assist you today?
 <cust> Hi Emily, I recently placed an order for a sandwich maker and I wanted to confirm the order status.
 <agent> Sure, I'd be happy to help you with that. Can you please provide me with your order number?
 <cust> Yes, it's 123456.
@@ -1343,7 +1343,7 @@ Tom: You're welcome. Is there anything else I can assist you with?
 <cust> No, that's all for now. Thank you for your help.
 Tom: You're welcome. Thank you for choosing BrownBox, and have a great day!
 <cust> Thank you. Goodbye!
-Tom: Goodbye!",307,-0.5085797165549354,0.5043668951391247,2
+Tom: Goodbye!",2
 Order,Placing an Order,Order placement process,Placing an Order -> Order placement process,positive,Electronics,Television,medium,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox customer support. My name is Alex. How may I assist you today?
 
 Customer: Hi Alex, I want to purchase a television from your website. Can you help me with the order placement process?
@@ -1390,7 +1390,7 @@ Agent: Thank you for choosing BrownBox. If you have any further questions or con
 
 Customer: Thank you, you too. Goodbye!
 
-Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox customer support. My name is Alex. How may I assist you today?
+Agent: Goodbye!","<agent> Thank you for calling BrownBox customer support. My name is Alex. How may I assist you today?
 <cust> Hi Alex, I want to purchase a television from your website. Can you help me with the order placement process?
 <agent> Absolutely, I'd be happy to help. May I know the model of the TV you're interested in?
 <cust> I'm looking for a 55-inch LED TV from Samsung.
@@ -1413,7 +1413,7 @@ Agent: Goodbye!",1,"<agent> Thank you for calling BrownBox customer support. My 
 <cust> No, that's all. You've been very helpful.
 <agent> Thank you for choosing BrownBox. If you have any further questions or concerns, don't hesitate to contact us. Have a great day!
 <cust> Thank you, you too. Goodbye!
-<agent> Goodbye!",370,-0.050857971655493536,0.5043668951391247,2
+<agent> Goodbye!",2
 Order,Placing an Order,Order placement process,Placing an Order -> Order placement process,positive,Men/Women/Kids,Shorts,medium,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
 
 Customer: Hi Sarah, I'm looking to place an order for a pair of shorts on your website. Can you help me with that?
@@ -1450,7 +1450,7 @@ Agent: You're welcome, John. Is there anything else I can assist you with?
 
 Customer: No, that's all for now. Have a great day!
 
-Agent: You too, John. Thank you for choosing BrownBox. Goodbye.",2,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
+Agent: You too, John. Thank you for choosing BrownBox. Goodbye.","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How can I assist you today?
 <cust> Hi Sarah, I'm looking to place an order for a pair of shorts on your website. Can you help me with that?
 <agent> Of course, I'd be happy to help. First, may I know which shorts you're interested in?
 <cust> Yes, I'm looking at the Men's Athletic Shorts in size medium.
@@ -1468,7 +1468,7 @@ Agent: You too, John. Thank you for choosing BrownBox. Goodbye.",2,"<agent> Than
 <cust> That was easy! Thank you so much for your help, Sarah.
 <agent> You're welcome, John. Is there anything else I can assist you with?
 <cust> No, that's all for now. Have a great day!
-<agent> You too, John. Thank you for choosing BrownBox. Goodbye.",312,-0.47225259394386854,2.0174675805564988,2
+<agent> You too, John. Thank you for choosing BrownBox. Goodbye.",2
 Order,Order Confirmation and Status,Confirming order status,Order Confirmation and Status -> Confirming order status,positive,Appliances,Vacuum Cleaner,less,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Customer: Hi, I placed an order for a vacuum cleaner yesterday, and I just wanted to confirm the order status.
 
 Agent: Hello, thank you for contacting BrownBox customer support. My name is Sarah, and I'll be happy to assist you. May I have your order number and name, please?
@@ -1487,7 +1487,7 @@ Agent: Of course, Jane. Is there anything else I can help you with today?
 
 Customer: No, that's all. Thank you for your help, Sarah.
 
-Agent: You're welcome, Jane. Thank you for choosing BrownBox. Have a great day!",0,"<cust> Hi, I placed an order for a vacuum cleaner yesterday, and I just wanted to confirm the order status.
+Agent: You're welcome, Jane. Thank you for choosing BrownBox. Have a great day!","<cust> Hi, I placed an order for a vacuum cleaner yesterday, and I just wanted to confirm the order status.
 <agent> Hello, thank you for contacting BrownBox customer support. My name is Sarah, and I'll be happy to assist you. May I have your order number and name, please?
 <cust> Sure, my order number is 12345678, and my name is Jane Doe.
 <agent> Thank you, Jane. Let me check your order details. I see that your order was placed yesterday, and it's currently being processed. You should receive a confirmation email with the tracking details once it's shipped.
@@ -1496,7 +1496,7 @@ Agent: You're welcome, Jane. Thank you for choosing BrownBox. Have a great day!"
 <cust> Alright, that's fine. I just wanted to make sure that everything was okay with my order.
 <agent> Of course, Jane. Is there anything else I can help you with today?
 <cust> No, that's all. Thank you for your help, Sarah.
-<agent> You're welcome, Jane. Thank you for choosing BrownBox. Have a great day!",192,-1.344103536609472,-1.0087337902782492,2
+<agent> You're welcome, Jane. Thank you for choosing BrownBox. Have a great day!",2
 Order,Order Confirmation and Status,Confirming order status,Order Confirmation and Status -> Confirming order status,positive,Electronics,Smart Band,less,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Customer: Hi, I'm calling to inquire about my order status for a Smart Band I purchased from BrownBox.
 
 Agent: Hello! Thank you for contacting BrownBox customer support. My name is Alex, and I'll be happy to assist you. May I have your order number, please?
@@ -1527,7 +1527,7 @@ Agent: It was my pleasure assisting you. If you have any further questions or co
 
 Customer: Thank you, you too. Goodbye!
 
-Agent: Goodbye!",2,"<cust> Hi, I'm calling to inquire about my order status for a Smart Band I purchased from BrownBox.
+Agent: Goodbye!","<cust> Hi, I'm calling to inquire about my order status for a Smart Band I purchased from BrownBox.
 <agent> Hello! Thank you for contacting BrownBox customer support. My name is Alex, and I'll be happy to assist you. May I have your order number, please?
 <cust> Sure, it's BB987654321.
 <agent> Thank you for providing that information. Let me check the status of your order. Could you please hold for a moment?
@@ -1542,7 +1542,7 @@ Agent: Goodbye!",2,"<cust> Hi, I'm calling to inquire about my order status for 
 <cust> No, that's all. Thank you for your help.
 <agent> It was my pleasure assisting you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day!
 <cust> Thank you, you too. Goodbye!
-<agent> Goodbye!",225,-1.104344527376431,2.0174675805564988,2
+<agent> Goodbye!",2
 Order,Placing an Order,Order placement process,Placing an Order -> Order placement process,positive,Electronics,DSLR Camera,less,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Agent: Thank you for calling BrownBox Customer Support. My name is John. How may I assist you today?
 
 Customer: Hi John, I'm looking to buy a DSLR camera from your website, but I'm not sure how to place the order. Can you help me?
@@ -1571,7 +1571,7 @@ Agent: You're welcome. Is there anything else I can help you with?
 
 Customer: No, that's all. You've been very helpful. Have a great day!
 
-Agent: You too. Thank you for choosing BrownBox.",1,"<agent> Thank you for calling BrownBox Customer Support. My name is John. How may I assist you today?
+Agent: You too. Thank you for choosing BrownBox.","<agent> Thank you for calling BrownBox Customer Support. My name is John. How may I assist you today?
 <cust> Hi John, I'm looking to buy a DSLR camera from your website, but I'm not sure how to place the order. Can you help me?
 <agent> Absolutely, I'd be happy to help you with that. May I know which camera model you are interested in?
 <cust> Yes, I'm looking for the Canon EOS Rebel T7i.
@@ -1585,7 +1585,7 @@ Agent: You too. Thank you for choosing BrownBox.",1,"<agent> Thank you for calli
 <cust> That's great. Thank you so much for your help, John.
 <agent> You're welcome. Is there anything else I can help you with?
 <cust> No, that's all. You've been very helpful. Have a great day!
-<agent> You too. Thank you for choosing BrownBox.",308,-0.501314292032722,0.5043668951391247,2
+<agent> You too. Thank you for choosing BrownBox.",2
 Order,Product Information and Tags,Finding seller's returns policy,Product Information and Tags -> Finding seller's returns policy,positive,Electronics,DSLR Camera,less,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Customer: Hi there, I'm interested in purchasing a DSLR camera from your website, but I'm having trouble finding the seller's return policy for it. Can you help me with that?
 
 Agent: Hello! Thank you for contacting BrownBox customer support. My name is Sarah, and I'll be happy to assist you. Sure, I can definitely help you with that. May I know the name of the seller you're interested in purchasing the DSLR camera from?
@@ -1612,7 +1612,7 @@ Agent: It was my pleasure assisting you. If you have any further questions or co
 
 Customer: Thank you, you too. Goodbye!
 
-Agent: Goodbye!",1,"<cust> Hi there, I'm interested in purchasing a DSLR camera from your website, but I'm having trouble finding the seller's return policy for it. Can you help me with that?
+Agent: Goodbye!","<cust> Hi there, I'm interested in purchasing a DSLR camera from your website, but I'm having trouble finding the seller's return policy for it. Can you help me with that?
 <agent> Hello! Thank you for contacting BrownBox customer support. My name is Sarah, and I'll be happy to assist you. Sure, I can definitely help you with that. May I know the name of the seller you're interested in purchasing the DSLR camera from?
 <cust> Yes, the seller's name is CameraPro.
 <agent> Great! Let me check that for you. Could you please hold for a moment while I look into the seller's return policy?
@@ -1625,7 +1625,7 @@ Agent: Goodbye!",1,"<cust> Hi there, I'm interested in purchasing a DSLR camera 
 <cust> No, that's all. Thank you for your help.
 <agent> It was my pleasure assisting you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day!
 <cust> Thank you, you too. Goodbye!
-<agent> Goodbye!",305,-0.5231105655993621,0.5043668951391247,2
+<agent> Goodbye!",2
 Order,Order Confirmation and Status,Confirming order status,Order Confirmation and Status -> Confirming order status,positive,Men/Women/Kids,Backpack,less,junior,"handles customer inquiries independently, possess solid troubleshooting skills, and seek guidance from more experienced team members when needed.","Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 
 Customer: Hi Sarah, I recently placed an order for a backpack and wanted to confirm the order status.
@@ -1650,7 +1650,7 @@ Agent: You're welcome. If you have any further questions or need assistance in t
 
 Customer: You too, Sarah. Goodbye!
 
-Agent: Goodbye, and take care!",2,"<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
+Agent: Goodbye, and take care!","<agent> Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
 <cust> Hi Sarah, I recently placed an order for a backpack and wanted to confirm the order status.
 <agent> Sure, I can help you with that. May I have your order number, please?
 <cust> Yes, it's #BB789012.
@@ -1662,7 +1662,7 @@ Agent: Goodbye, and take care!",2,"<agent> Thank you for calling BrownBox Custom
 <cust> Perfect. That's exactly what I needed to know. Thank you again for your help, Sarah.
 <agent> You're welcome. If you have any further questions or need assistance in the future, feel free to reach out. Have a great day!
 <cust> You too, Sarah. Goodbye!
-<agent> Goodbye, and take care!",226,-1.0970791028542177,2.0174675805564988,2
+<agent> Goodbye, and take care!",2
 Order,Product Information and Tags,Finding seller's returns policy,Product Information and Tags -> Finding seller's returns policy,positive,Appliances,Ceiling Fan,medium,experienced,"confidently handles complex customer issues, excel in de-escalation, and possess the ability to empathize with customers, providing them with effective solutions and support.","Agent: Thank you for calling BrownBox Customer Support. This is John. How may I assist you today?
 
 Customer: Hi John, my name is Mike. I recently ordered a ceiling fan from your website, and I need to know the return policy for it.
@@ -1695,7 +1695,7 @@ Agent: You're welcome, Mike. If you have any further questions or concerns, feel
 
 Customer: You too, John. Goodbye!
 
-Agent: Goodbye, Mike!",1,"<agent> Thank you for calling BrownBox Customer Support. This is John. How may I assist you today?
+Agent: Goodbye, Mike!","<agent> Thank you for calling BrownBox Customer Support. This is John. How may I assist you today?
 <cust> Hi John, my name is Mike. I recently ordered a ceiling fan from your website, and I need to know the return policy for it.
 <agent> Sure, Mike. I can help you with that. May I have your order number, please?
 <cust> Sure, my order number is BB12345.
@@ -1711,4 +1711,4 @@ Agent: Goodbye, Mike!",1,"<agent> Thank you for calling BrownBox Customer Suppor
 <cust> Okay, that's helpful. Thanks for your help, John.
 <agent> You're welcome, Mike. If you have any further questions or concerns, feel free to reach out to us. Have a great day!
 <cust> You too, John. Goodbye!
-<agent> Goodbye, Mike!",358,-0.13804306592205387,0.5043668951391247,2
+<agent> Goodbye, Mike!",2
